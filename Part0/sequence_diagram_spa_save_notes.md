@@ -1,6 +1,6 @@
 ```mermaid
 flowchart LR
-    A[Form submitted in Browser] --> |Prevent defaulting| --> B[Create new note based on defaulting]
+    A[Form submitted in Browser] --> |Prevent defaulting| B[Create new note based on defaulting]
     B --> C[Create new note variable]
     C --> D[Push new note variable to the notes array]
     D --> E[Redraw html using reDrawNotes()]
