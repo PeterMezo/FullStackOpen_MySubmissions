@@ -31,5 +31,4 @@ savingNoteSequence
      deactivate server
   
      Note right of browser: JS renders the data accordingly
-
   
