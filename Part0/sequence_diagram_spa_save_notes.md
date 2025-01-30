@@ -6,4 +6,4 @@ flowchart LR
     D --> E[Redraw html using reDrawNotes]
     E --> F[Browser --> Server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa/]
 
-    Note right of F: Updates database with the new note added, but does not need to request back information. The new addition is locally stored immediately.
+    Note: Updates database with the new note added, but does not need to request back information. The new addition is locally stored immediately.
